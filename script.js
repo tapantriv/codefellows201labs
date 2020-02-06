@@ -103,13 +103,37 @@
     }
     //This is my seven answer
     
+    // var myarray=["monday","tuesday", "wednesday","thrusday", "friday", "saturday"]
+    // for(var j=0;j<7;j++)
+    // {
+    //      var day=prompt("Tell me one day in week?")
+        
+        
+    //      if(myarray.includes(day))
+            
+           
+    //         {
+    //             alert("you got it correct");
+    //             j = j + 7;
+    //             break;
+    //         } else{
+    //            alert ("wrong");
+    //         } 
+        
+
+    
+
+    // }
+    // alert("monday,tuesday, wednesday,thrusday, friday, saturday")
     var myarray=["monday","tuesday", "wednesday","thrusday", "friday", "saturday"]
     for(var j=0;j<7;j++)
     {
          var day=prompt("Tell me one day in week?")
         
         
-         if(myarray.includes(day))
+      for(var i= 0;i<myarray.length;i++)
+      {
+         if(myarray[i]==day)
            
             {
                 alert("you got it correct");
@@ -117,14 +141,18 @@
                 break;
             } else{
                alert ("wrong");
+               
+               break;
             } 
+
+      }
+           
         
 
     
 
     }
     alert("monday,tuesday, wednesday,thrusday, friday, saturday")
-   
    
 
 
