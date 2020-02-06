@@ -1,0 +1,64 @@
+.main
+{
+    height: 1100px;
+    width: 800px;
+    border: solid black;
+
+}
+h1{
+    height: 100px;
+    width: 780px;
+    color:white;
+    background-color: blue;
+   margin-left: 10px;
+    text-align: center;
+    
+}
+h2{
+    height: 70px;
+    width: 780px;
+    color:white;
+    background-color: rgb(6, 6, 20);
+    margin-left: 10px;
+    text-align: center;
+
+}
+h3{
+    height: 20px;
+    width: 780px;
+    color:white;
+    background-color: rgb(6, 6, 20);
+    margin-left: 10px;
+    text-align: center;
+
+}
+.goal{
+    
+   height: 300px;
+   width: 760px;
+    
+
+}
+
+.sgoal{
+    display:inline-block;
+    height: 180px;
+    width: 350px;
+    color:white;
+    background-color: rgb(6, 6, 20);
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+   
+
+}
+.lgoal{
+    display:inline-block;
+    height: 180px;
+    width: 350px;
+    color:white;
+    background-color: rgb(6, 6, 20);
+    margin-left: 5px;
+    text-align: center;
+
+}
