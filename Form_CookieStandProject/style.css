@@ -1,0 +1,19 @@
+input{
+    margin: 5px;
+    
+    vertical-align: center;
+}
+form{
+    border: solid black 3px;
+    width: 400px;
+    height: 200px;
+    margin-left: 5px;
+}
+button{
+    background: black;
+    color: blanchedalmond;
+    border-radius: 1px ;
+    margin-left: 280px;
+    height: 30px;
+    width: 60px;
+}
